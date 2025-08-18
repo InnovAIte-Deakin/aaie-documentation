@@ -3,16 +3,18 @@
 ## Progress  
 - Established **unified JSON schema** and validation tools to ensure dataset quality.  
 - Implemented **GitHub workflows** with peer/senior reviews and automated CI checks.  
-- Curated **20+ rubrics across 5 domains**, each with multi-quality submissions (Excellent → Poor).  
+- Curated **100+ rubrics across 5 domains**, each with multi-quality submissions (Excellent → Poor).  
 - Developed **synthetic submission pipelines** with prompt engineering to expand data efficiently.  
 - Introduced **weighted rubrics** and varied **feedback types** to better reflect real assessment practices.  
 
-## Changes to Plan  
-- Shifted focus from rapid mass-curation to **depth and schema quality first**, ensuring a strong foundation.  
-- Plan revised to scale from **100 JSONs to 1000+** by trimester end, using automation and standardized templates.  
-- Added priority on **coverage analysis tools** to highlight gaps in domains, rubrics, and quality levels.  
+## Changes to Original Plan  
+- Shifted from **quantity-first** to **quality-first** approach (depth, schema compliance, peer review).  
+- Changed from three separate dataset types (**classifier, feedback, revision**) into **one unified dataset**.  
+- Revised target: scale to **1000 rubrics (≈8000 submissions)** by trimester end using automation.  
+- Changed strategy from sourcing public datasets to **generation-only approach** (synthetic + human-style submissions).  
 
 ## New Plans & Aims  
+- Develop dataset that includes **weighted rubrics** and varied **feedback types** to better reflect real assessment practices.  
 - Develop **automated scripts** for large-scale submission generation while maintaining rubric alignment.  
 - Introduce **reporting dashboards** to monitor dataset coverage and quality balance across domains.  
 - Expand into **revision chains** to model multi-turn student–LLM interactions.  
